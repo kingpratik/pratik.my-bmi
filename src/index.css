@@ -1,3 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+.container{
+  box-shadow: 0px 0px 12px  paleturquoise;
+  border-radius: 35px 8px 35px 8px;
+  padding: 1rem;
+  background: cornflowerblue;
+  
+}
+
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 10px 0;
+  background-color: rgb(7, 137, 137);
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-outline{
+    background-color: #fff;
+    color: black;
+  
+}
+
+.center{
+  text-align: center;
+  margin: 24px 0;
+  font-style: italic;
+}
+
+p{
+  margin: 10px 0;
+  
+}
+
+.img-container{
+  text-align: center;
+}
+
+.img-container img{
+  height: 200px;
+  
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
